@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/io/github/potik/Downloads/icons">
+    <file alias="256x256/apps/io.github.potik.Downloads.png">io.github.potik.Downloads.png</file>
+  </gresource>
+</gresources>

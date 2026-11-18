@@ -1,0 +1,132 @@
+@define-color potik_iris #7863dc;
+@define-color potik_mint #2e9a69;
+@define-color potik_coral #da5265;
+
+.navigation-pane {
+  background-color: @sidebar_bg_color;
+  padding: 22px 12px;
+}
+
+.navigation-caption {
+  color: alpha(@window_fg_color, 0.63);
+  font-size: 0.90em;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.navigation-list, .download-list {
+  background-color: transparent;
+}
+
+.navigation-list row {
+  padding: 9px 10px;
+  margin-bottom: 3px;
+  border-radius: 9px;
+}
+
+.navigation-list row:selected {
+  background-color: alpha(@potik_iris, 0.20);
+  color: @window_fg_color;
+}
+
+.navigation-list row:selected image {
+  color: @potik_iris;
+}
+
+.navigation-count {
+  background-color: alpha(@window_fg_color, 0.08);
+  border-radius: 12px;
+  color: alpha(@window_fg_color, 0.74);
+  font-size: 0.85em;
+  font-feature-settings: "tnum";
+  padding: 2px 7px;
+}
+
+.download-row {
+  background-color: @card_bg_color;
+  border: 1px solid alpha(@window_fg_color, 0.11);
+  border-radius: 15px;
+  padding: 12px;
+  margin: 0 0 8px;
+}
+
+.connection-row {
+  background-color: @card_bg_color;
+  border: 1px solid alpha(@window_fg_color, 0.11);
+  border-radius: 12px;
+  padding: 9px 13px;
+}
+
+.url-error {
+  color: @error_color;
+}
+
+.link-warning {
+  color: @warning_color;
+}
+
+.file-icon {
+  background-color: alpha(@potik_iris, 0.15);
+  color: @potik_iris;
+  border-radius: 12px;
+  min-width: 39px;
+  min-height: 39px;
+}
+
+.transfer-progress trough {
+  min-height: 5px;
+}
+
+.transfer-progress progress {
+  background-color: @potik_iris;
+  min-height: 5px;
+}
+
+.status-badge {
+  font-size: 0.80em;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 20px;
+}
+
+.status-badge.in-progress { background-color: alpha(@potik_iris, 0.20); }
+.status-badge.pending { background-color: alpha(@window_fg_color, 0.10); }
+.status-badge.complete { background-color: alpha(@potik_mint, 0.22); }
+.status-badge.failed { background-color: alpha(@potik_coral, 0.22); }
+
+.footer {
+  border-top: 1px solid alpha(@window_fg_color, 0.10);
+  min-height: 41px;
+  padding: 0 24px;
+}
+
+.footer-status, .numeric {
+  color: alpha(@window_fg_color, 0.72);
+  font-size: 0.91em;
+}
+
+.numeric {
+  font-feature-settings: "tnum";
+}
+
+.compact-action {
+  margin: 3px 0;
+}
+
+button.potik-primary {
+  background-color: #6651cc;
+  color: white;
+}
+
+button.potik-primary:hover {
+  background-color: #5743bb;
+}
+
+button.potik-primary:active {
+  background-color: #4938a3;
+}
+
+button.potik-primary:disabled {
+  background-color: alpha(@potik_iris, 0.24);
+  color: alpha(@window_fg_color, 0.55);
+}

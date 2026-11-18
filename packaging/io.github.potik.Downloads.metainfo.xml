@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.potik.Downloads</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>Potik</name>
+  <name xml:lang="uk">Потік</name>
+  <summary>Manage file downloads with aria2</summary>
+  <summary xml:lang="uk">Керуйте завантаженнями файлів через aria2</summary>
+  <description>
+    <p>Add HTTP and HTTPS downloads, choose a destination folder and set the number of connections per file. Potik saves the queue and lets you pause, resume and retry downloads.</p>
+    <p xml:lang="uk">Додавайте HTTP- і HTTPS-завантаження, вибирайте папку збереження й кількість з’єднань для кожного файлу. Потік зберігає чергу та дає змогу призупиняти, відновлювати й повторювати завантаження.</p>
+  </description>
+  <launchable type="desktop-id">io.github.potik.Downloads.desktop</launchable>
+  <content_rating type="oars-1.1"/>
+</component>

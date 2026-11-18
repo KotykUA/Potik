@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Potik
+Name[uk]=Потік
+Comment=Download files with aria2
+Comment[uk]=Завантаження файлів через aria2
+Exec=potik
+Icon=io.github.potik.Downloads
+Terminal=false
+Categories=Network;FileTransfer;
+StartupNotify=true
